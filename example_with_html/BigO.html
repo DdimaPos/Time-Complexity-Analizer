@@ -1,0 +1,38 @@
+<head>
+    <link rel="stylesheet" href="BigO.css">
+</head>
+
+<body>
+    <h1>Welcome to the Big O Notation calculator!</h1>
+    
+
+    <div>
+        <label for="languageOption">Select Language: </label>
+        <select id="languageOption">
+            <option>Java</option>
+            <option>C</option>
+            <option>C++</option>
+            <option>C#</option>
+            <option>Javascript</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="codeInput">Enter code:</label>
+    </div>
+    <div>
+        <textarea spellcheck="false" id="codeInput" rows=10 cols="80" placeholder="write a for loop..."></textarea>
+    </div>
+
+    <div>
+        <button id="getBigOBtn">Get Big O!</button>
+    </div>
+
+    <div>
+        <h3>Result:</h3>
+        <div id="resultShow"></div>
+        <div id="codeAnalysis"></div>
+    </div>
+</body>
+<script src="bigOCalc.js"></script>
+<script src="BigO.js"></script>
